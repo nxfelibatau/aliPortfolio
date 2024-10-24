@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/services"
                       className="block py-2 px-3 md:text-[#1B2A49] hover:text-white md:hover:bg-[#ACF0D1] md:hover:text-[#243c6d] hover:bg-[#1B2A49] dark:text-white rounded md:bg-transparent md:p-0"
                       aria-current="page"
                     >
@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/contact"
                       className="block py-2 px-3 md:text-[#1B2A49] hover:text-white md:hover:bg-[#ACF0D1] md:hover:text-[#243c6d] hover:bg-[#1B2A49] dark:text-white rounded md:bg-transparent md:p-0"
                       aria-current="page"
                     >

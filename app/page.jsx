@@ -1,5 +1,5 @@
 "use client";
-import ParticlesComponent from "./components/particleComponent";
+import ParticlesComponent from "./components/ui/particleComponent";
 import React from "react";
 import { Cover } from "./components/ui/Cover";
 
