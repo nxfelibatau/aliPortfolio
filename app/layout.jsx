@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import "./styles/globals.css";
+import "./globals.css";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { Kanit } from "next/font/google";
 
 const kanit = Kanit({
@@ -26,14 +26,7 @@ export default function RootLayout({ children }) {
                 href="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
-                <Image
-                  src="/pngDark/logo-no-background.png"
-                  className=""
-                  alt="YasHooshmand"
-                  width={200}
-                  height={200}
-                  quality={100}
-                />
+                <p className="font-bold text-xl text-navy">Ali Hooshmand</p>
               </Link>
               <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button
