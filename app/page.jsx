@@ -5,7 +5,8 @@ import { Cover } from "./components/ui/Cover";
 import BackgroundBeams from "./components/BackgroundBeams";
 import FlipWords from "./components/FlipWords";
 import MacBookScroll from "./components/MacBookScroll";
-import "./globals.css"
+import "./globals.css";
+import Animatedtabs from "./components/AnimatedTabs";
 
 export default function Home() {
   return (
@@ -33,8 +34,13 @@ export default function Home() {
             <BackgroundBeams />
           </div>
         </div>
+        {/* صفحه سوم */}
         <div className="hidden md:block mt-100">
           <MacBookScroll/>
+        </div>
+        {/* صفحه چهارم */}
+        <div>
+        <Animatedtabs/>
         </div>
       </div>
     </>
