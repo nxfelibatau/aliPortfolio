@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={kanit.className}>
-      <body>
+      <body className="bg-navy">
         <header className="z-50">
           <nav className="bg-[#ACF0D1] dark:bg-[#1B2A49] fixed w-full z-20 top-0 start-0 border-b dark:border-gray-600">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

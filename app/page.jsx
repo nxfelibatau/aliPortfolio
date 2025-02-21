@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <div className="mt-16">
         <ParticlesComponent />
-        
         {/* صفحه اول */}
         <div style={{ height: "67vh" }}>
           <h1 className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-52 relative z-10 py-6 bg-clip-text text-transparent bg-gradient-to-b from-[#ACF0D1] via-[#ACF0D1] to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
@@ -34,7 +33,7 @@ export default function Home() {
             <BackgroundBeams />
           </div>
         </div>
-        <div className="mt-100">
+        <div className="hidden md:block mt-100">
           <MacBookScroll/>
         </div>
       </div>
