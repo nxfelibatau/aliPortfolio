@@ -4,7 +4,8 @@ import React from "react";
 import { Cover } from "./components/ui/Cover";
 import BackgroundBeams from "./components/BackgroundBeams";
 import FlipWords from "./components/FlipWords";
-import StickyScrollReveal from "./components/StickyScrollReveal";
+import MacBookScroll from "./components/MacBookScroll";
+import "./globals.css"
 
 export default function Home() {
   return (
@@ -32,6 +33,9 @@ export default function Home() {
           <div className="absolute inset-0 z-0">
             <BackgroundBeams />
           </div>
+        </div>
+        <div className="mt-100">
+          <MacBookScroll/>
         </div>
       </div>
     </>

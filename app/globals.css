@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --my-navy: #1B2A49;
-  --my-green: #ACF0D1;
+  --my-navy: #1b2a49;
+  --my-green: #acf0d1;
 }
 
 #particles-js {
@@ -23,4 +23,8 @@
   left: 10px;
   color: white;
   z-index: 1;
+}
+
+.mt-100 {
+  margin-top: 200vh;
 }
