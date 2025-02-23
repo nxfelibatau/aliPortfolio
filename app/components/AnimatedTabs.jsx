@@ -6,45 +6,56 @@ import { Tabs } from "./ui/tabs";
 export default function TabsDemo() {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "Frontend",
+      value: "frontend",
       content: (
         <div
           className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Product Tab</p>
+          <p>Frontend Tab</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Backend",
+      value: "backend",
       content: (
         <div
           className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Services tab</p>
+          <p>Backend tab</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Databases",
+      value: "databases",
       content: (
         <div
           className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Playground tab</p>
+          <p>Databases tab</p>
           <DummyContent />
         </div>
       ),
     },
     {
-      title: "Content",
-      value: "content",
+      title: "Tools and DevOps",
+      value: "tools",
       content: (
         <div
           className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Content tab</p>
+          <p>Tools and DevOps tab</p>
+          <DummyContent />
+        </div>
+      ),
+    },
+    {
+      title: "Others",
+      value: "others",
+      content: (
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+          <p>Other skills tab</p>
           <DummyContent />
         </div>
       ),
