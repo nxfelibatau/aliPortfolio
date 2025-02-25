@@ -7,6 +7,7 @@ import FlipWords from "./components/FlipWords";
 import MacBookScroll from "./components/MacBookScroll";
 import "./globals.css";
 import Animatedtabs from "./components/AnimatedTabs";
+import FocusCards from "./components/FocusCards";
 
 export default function Home() {
   return (
@@ -36,11 +37,16 @@ export default function Home() {
         </div>
         {/* صفحه سوم */}
         <div className="hidden md:block mt-100">
-          <MacBookScroll/>
+          <MacBookScroll />
         </div>
         {/* صفحه چهارم */}
         <div>
-        <Animatedtabs/>
+          <Animatedtabs />
+        </div>
+        {/* صفحه پنجم */}
+        <div className="mb-5">
+          <p className="text-white flex justify-center m-5 text-5xl">Projects</p>
+          <FocusCards/>
         </div>
       </div>
     </>
