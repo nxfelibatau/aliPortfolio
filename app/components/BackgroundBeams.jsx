@@ -12,8 +12,8 @@ export default function BackgroundBeamsDemo() {
       </div>
 
 
-      {/* کامپوننت StickyScrollReveal */}
-      <div className="relative z-10 w-full">
+      <div className="relative z-10 w-full hidden md:block">
+        <p className="text-grass mt-24 text-5xl flex justify-center">Biography</p>
         <StickyScrollReveal />
       </div>
     </div>

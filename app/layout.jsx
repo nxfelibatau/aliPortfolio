@@ -30,12 +30,6 @@ export default function RootLayout({ children }) {
               </Link>
               <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button
-                  type="button"
-                  className="text-white bg-[#1B2A49] hover:bg-[#243c6d] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  Get started
-                </button>
-                <button
                   data-collapse-toggle="navbar-sticky"
                   type="button"
                   className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -79,11 +73,11 @@ export default function RootLayout({ children }) {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/projects"
                       className="block py-2 px-3 md:text-[#1B2A49] hover:text-white md:hover:bg-[#ACF0D1] md:hover:text-[#243c6d] hover:bg-[#1B2A49] dark:text-white rounded md:bg-transparent md:p-0"
                       aria-current="page"
                     >
-                      About
+                      Projects
                     </Link>
                   </li>
                   <li>
@@ -97,11 +91,20 @@ export default function RootLayout({ children }) {
                   </li>
                   <li>
                     <Link
-                      href="/contact"
+                      href="/awards"
                       className="block py-2 px-3 md:text-[#1B2A49] hover:text-white md:hover:bg-[#ACF0D1] md:hover:text-[#243c6d] hover:bg-[#1B2A49] dark:text-white rounded md:bg-transparent md:p-0"
                       aria-current="page"
                     >
-                      Contact
+                      Awards
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/about"
+                      className="block md:hidden py-2 px-3 md:text-[#1B2A49] hover:text-white md:hover:bg-[#ACF0D1] md:hover:text-[#243c6d] hover:bg-[#1B2A49] dark:text-white rounded md:bg-transparent md:p-0"
+                      aria-current="page"
+                    >
+                      about
                     </Link>
                   </li>
                 </ul>

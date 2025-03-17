@@ -13,11 +13,11 @@ export default function MacbookScrollDemo() {
           </span>
         }
         badge={
-          <Link href="/mac.png">
+          <Link href="/macme.webp">
             <Badge className="h-10 w-10 transform -rotate-12" />
           </Link>
         }
-        src={`/mac.png`}
+        src={`/macme.webp`}
         showGradient={false} />
     </div>)
   );

@@ -9,10 +9,9 @@ export default function TabsDemo() {
       title: "Frontend",
       value: "frontend",
       content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
           <p>Frontend Tab</p>
-          <DummyContent />
+          <DummyContent src="/FrontEnd.webp" alt="Frontend Development" />
         </div>
       ),
     },
@@ -20,10 +19,9 @@ export default function TabsDemo() {
       title: "Backend",
       value: "backend",
       content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Backend tab</p>
-          <DummyContent />
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+          <p>Backend Tab</p>
+          <DummyContent src="/BackEnd.webp" alt="Backend Development" />
         </div>
       ),
     },
@@ -31,10 +29,9 @@ export default function TabsDemo() {
       title: "Databases",
       value: "databases",
       content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Databases tab</p>
-          <DummyContent />
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+          <p>Databases Tab</p>
+          <DummyContent src="/mac.png" alt="Databases" />
         </div>
       ),
     },
@@ -42,52 +39,39 @@ export default function TabsDemo() {
       title: "Tools and DevOps",
       value: "tools",
       content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Tools and DevOps tab</p>
-          <DummyContent />
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+          <p>Tools and DevOps Tab</p>
+          <DummyContent src="/DevopsandTools.webp" alt="DevOps and Tools" />
         </div>
       ),
     },
     {
-      title: "Others",
-      value: "others",
+      title: "Mobile App Development",
+      value: "mobile",
       content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Other skills tab</p>
-          <DummyContent />
-        </div>
-      ),
-    },
-    {
-      title: "Random",
-      value: "random",
-      content: (
-        <div
-          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
-          <p>Random tab</p>
-          <DummyContent />
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-grass">
+          <p>Mobile App Development Tab</p>
+          <DummyContent src="/swift.webp" alt="Mobile Development" />
         </div>
       ),
     },
   ];
 
   return (
-    (<div
-      className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+    <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative md:flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40 hidden">
       <Tabs tabs={tabs} />
-    </div>)
+    </div>
   );
 }
 
-const DummyContent = () => {
+const DummyContent = ({ src, alt }) => {
   return (
-    (<Image
-      src="/mac.png"
-      alt="dummy image"
-      width="1000"
-      height="1000"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto" />)
+    <Image
+      src={src}
+      alt={alt}
+      width={1000}
+      height={1000}
+      className="object-cover object-left-top h-[60%] md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
   );
 };

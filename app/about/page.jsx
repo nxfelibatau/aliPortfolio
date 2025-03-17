@@ -1,11 +1,10 @@
-import React from "react";
-import "../globals.css";
+import React from 'react'
+import StickyScrollReveal from '../components/StickyScrollReveal'
 
 export default function about() {
   return (
-    <section className="mt-16 bg-[#1B2A49]">
-      <div className="container mx-auto my-96">
-      </div>
-    </section>
-  );
+    <div>
+        <StickyScrollReveal/>
+    </div>
+  )
 }

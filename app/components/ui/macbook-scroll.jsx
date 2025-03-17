@@ -128,7 +128,7 @@ export const Lid = ({
           }}
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
           <span className="text-white">
-            <AceternityLogo />
+            Ali Hooshmand
           </span>
         </div>
       </div>
