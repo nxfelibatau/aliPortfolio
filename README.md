@@ -3,7 +3,7 @@
 This repository contains the portfolio website developed for **Ali**, showcasing his skills, projects, and professional journey. The site is designed with **modern UI, smooth navigation, and full responsiveness**.
 
 ## 🚀 Live Demo  
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=flat&logo=vercel)](https://ali-portfolio-iota-ten.vercel.app/)]
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=flat&logo=vercel)](https://ali-portfolio-iota-ten.vercel.app/)
 
 ## 📌 Features
 - ⚡ **Fast & Responsive** – Works on all devices  
