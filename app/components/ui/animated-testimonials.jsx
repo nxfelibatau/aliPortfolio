@@ -30,10 +30,10 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
         exit={{ y: -20, opacity: 0 }}
         transition={{ duration: 0.2, ease: "easeInOut" }}
       >
-        <h3 className="text-2xl font-bold text-white">
+        <h3 className="text-lg md:text-xl lg:text-2xl  font-semibold text-white">
           {testimonials[active].name}
         </h3>
-        
+
         {/* نمایش عنوان شغلی به عنوان لینک */}
         {testimonials[active].url ? (
           <a
@@ -50,7 +50,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
           </p>
         )}
 
-        <motion.p className="text-lg text-gray-300 mt-8 dark:text-neutral-300">
+        <motion.p className="text-sm md:text-lg lg:text-xl text-gray-300 mt-8 dark:text-neutral-300">
           {testimonials[active].quote.split(" ").map((word, index) => (
             <motion.span
               key={index}

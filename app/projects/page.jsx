@@ -10,7 +10,7 @@ export default function projects() {
         <BentoGrid/>
       </div>
       <div className="flex mt-10 justify-center">
-       <p className="text-5xl text-grass"> Volunteer Projects</p>
+       <p className="text-xl font-bold md:text-3xl lg:text-5xl  text-grass"> Volunteer Projects</p>
       </div>
        <AnimatedTestimonials/>
     </section>
